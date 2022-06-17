@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+html,body{
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+.container{
+    position: relative;
+}
+h2{
+
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: #FFF;
+    position: relative;
+    text-align: center;
+    padding:30px;
+    text-transform: uppercase;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+}
+#input{
+    border: 0;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 1.7rem;
+    border:2px solid linear-gradient(to right, #4B4FE7 , #864BE7);
+    border-radius: 5px;
+}
+#input::placeholder {
+    font-weight: normal;
+}
+#btnEnviar{
+    border: 0;
+    border-radius: 5px;
+    width: 66px;
+    background-image: linear-gradient(to right, #4B4FE7 , #864BE7);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: white;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#btnCadastrar:active{
+    background-image: linear-gradient(to right, #6165EB , #AB87E8);
+}
+tbody{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height:80vh;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+tr{
+    background-image: linear-gradient(to right, #4B4FE7 , #864BE7);
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 2px 5px;
+    min-width: 130px;
+}
+td{
+    color: white;
+}
+#total{
+    background-image: linear-gradient(to right, #4B4FE7 , #864BE7);
+    width: 100px;
+    height: auto;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin: 10px 7.2px;
+    min-width: 130px;
+}
